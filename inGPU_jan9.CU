@@ -57,7 +57,6 @@ thermo            10000
 thermo_style      custom step v_strain temp v_p3 v_fv pe ke etotal press
 
 dump              1 all custom 10000 dump.Cu id type x y z 
-dump_modify       1 format binary              
 
 restart           200000 restart.Cu
 run               200000
