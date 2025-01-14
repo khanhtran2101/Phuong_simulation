@@ -2,7 +2,7 @@ units             metal
 boundary          s s p                    
 atom_style        atomic                 
 
-read_data         LAMMPSDATAFILE1.txt
+read_data         Phuong_simulation/LAMMPSDATAFILE1.txt
 
 pair_style        eam/alloy
 pair_coeff        * * CuNi.eam.alloy Cu Ni
