@@ -1,3 +1,7 @@
+# Enable GPU
+package gpu 1                            # Use GPU
+suffix gpu                               # Run all GPU-compatible commands on GPU
+
 units             metal                       
 boundary          s s p                    
 atom_style        atomic                 
@@ -60,7 +64,3 @@ dump              1 all custom 10000 dump.Cu id type x y z
 
 restart           200000 restart.Cu
 run               200000
-
-# Enable GPU
-package gpu 1                            # Use GPU
-suffix gpu                               # Run all GPU-compatible commands on GPU
